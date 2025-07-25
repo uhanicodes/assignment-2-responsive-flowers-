@@ -197,6 +197,15 @@ nav {
     margin-right: 276px;
 }
 
+/* Latest deals responsive */
+
+@media screen and (max-width: 576px){
+    .latest-deal-content {
+        margin-left: 28.5px;
+        margin-right: 28.5px;
+    }
+}
+
 /* Flower bloom section styles */
 
 .flower-bloom {
