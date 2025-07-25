@@ -145,6 +145,10 @@ nav {
     .sample-plants {
         grid-template-columns: repeat(2, 1fr);
     }
+    .our-plants-content {
+        margin-left: 28.5px;
+        margin-right: 28.5px;
+    }
 }
 
 /* Plants lover section styles */
