@@ -223,12 +223,14 @@ nav {
 
 .flower-bloom {
     display: grid;
+    justify-items:stretch;
+    gap: 28px;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .flower-bloom-double {
     display: grid;
-    
+    gap: 25px;
 }
 
 .flower-bloom-small, .flower-bloom-big {
@@ -236,11 +238,11 @@ nav {
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    
 }
 
 .bloom-plant, .ana-plant, .zabo-plant {
     color: #FFFFFF;
+    border-radius: 10px;
 }
 
 .bloom-plant {
@@ -256,6 +258,17 @@ nav {
 .zabo-plant {
     background-image: url(../assets/deal-zabo.png);
     background-repeat: no-repeat;
+}
+
+/* Flower bloom section responsive */
+
+@media screen and (max-width: 576px){
+    .flower-bloom {
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .flower-bloom-double {
+        grid-template-rows: repeat(1, 1fr);
+    }
 }
 
 /* Join section styles */
@@ -314,6 +327,10 @@ nav {
 footer {
     margin: 50px 160px;
     display: grid;
+    /* justify-content: left; */
+    /* align-content:end; */
+    /* justify-items: left; */
+    justify-self: left;
     grid-template-columns: repeat(4, 1fr);
 }
 
