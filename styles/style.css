@@ -329,3 +329,16 @@ footer {
 .gray {
     margin-bottom: 32px;
 }
+
+/* Footer section responsive */
+
+@media screen and (max-width: 576px){
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-content-1 {
+        text-align: left;
+    }
+}
