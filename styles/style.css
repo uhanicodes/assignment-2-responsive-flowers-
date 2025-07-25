@@ -93,6 +93,8 @@ nav {
 @media screen and (max-width: 576px){
     .banner {
         flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
     }
     .fresh-flowers {
         margin-top: 23px;
