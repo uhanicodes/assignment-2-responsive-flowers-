@@ -133,6 +133,18 @@ nav {
     text-align: center;
 }
 
+/* our plants responsive */
+
+@media screen and (max-width:576px){
+    .plants {
+        margin-left: 14px;
+        margin-right: 17px;
+    }
+    .sample-plants {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* Plants lover section styles */
 
 .plants-lover-container {
