@@ -294,6 +294,21 @@ nav {
     height: 50px;
 }
 
+/* Join section responsive */
+
+@media screen and (max-width: 576px){
+    .join {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .join input[type="email"] {
+        width: 218px;
+    }
+    .join button {
+        width: 103px;
+    }
+}
+
 /* Footer section styles */
 
 footer {
