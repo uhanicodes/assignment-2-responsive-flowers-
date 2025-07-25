@@ -33,6 +33,7 @@
 }
 
 .btn-primary {
+    width: 100%;
     padding: 19px 50px;
     border: none;
     font-weight: 600;
@@ -79,3 +80,34 @@ nav {
     align-items: end;
 }
 
+/* Our Plants styles */
+
+.plants {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.our-plants {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-plants-content {
+    margin-top: 16px;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 49px;
+}
+
+.sample-plants {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.sample-plants-content {
+    text-align: center;
+}
