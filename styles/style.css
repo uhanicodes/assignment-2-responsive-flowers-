@@ -28,6 +28,19 @@
      color: gray;
 }
 
+.orange {
+    color: #E95A08;
+}
+
+.btn-primary {
+    padding: 19px 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #E95A08
+}
+
 /* nav styles */
 nav {
     margin-top: 30px;
@@ -58,3 +71,11 @@ nav {
 }
 
 /* Banner styles */
+
+.banner {
+    margin: 120px 150px;
+    display: flex;
+    justify-content: safe;
+    align-items: end;
+}
+
