@@ -136,6 +136,11 @@ nav {
     row-gap: 30px;
 }
 
+.sample-plants>li>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .sample-plants-content {
     text-align: center;
 }
