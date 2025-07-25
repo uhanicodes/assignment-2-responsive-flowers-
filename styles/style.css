@@ -71,6 +71,14 @@ nav {
     color: #8987A1;
 }
 
+/* nav responsive */
+
+@media screen and (max-width: 576px){
+    .home, .shop, .about-us {
+        display: none;
+    }
+}
+
 /* Banner styles */
 
 .banner {
