@@ -88,6 +88,19 @@ nav {
     align-items: end;
 }
 
+/* banner responsive */
+
+@media screen and (max-width: 576px){
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .fresh-flowers {
+        margin-top: 23px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
 /* Our Plants styles */
 
 .plants {
